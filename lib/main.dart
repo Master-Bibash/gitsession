@@ -123,3 +123,17 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+class sum extends StatelessWidget {
+  const sum({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(
+     body: Column(
+      children: [
+        Text("Sum"),
+      ],
+     ),
+    );
+  }
+}
